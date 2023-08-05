@@ -1,0 +1,585 @@
+/*-----------------------small screen--------------------------------*/
+@media only screen and (min-width: 375px) and (max-width: 699px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    #container {
+        width: 150vw;
+        height: 155vh;
+        background-color: rgb(255, 255, 255);
+    }
+    /*-----------------------------header-----------------------------*/
+    #hd {
+        width: 150vw;
+        height: 14vh;
+        background-color: rgb(106, 46, 247);
+        display: flex;
+        gap: 0.5vw;
+    }
+
+    #sec-1 {
+        width: 25vw;
+        height: 14vh;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 70px;
+        border-radius: 25px;
+        /* background-color: black; */
+    }
+
+    #nv {
+        width: 45vw;
+        height: 14vh;
+        /* border: 1px solid #000; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        color: antiquewhite;
+    }
+
+    #nav {
+        width: 80vw;
+        height: 14vh;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-list  {
+        list-style: none;
+        display: flex;
+        gap: 5vw;
+        font-size: 24px;
+        font-weight:bold;
+        
+    }
+
+    .list a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    /*--------------------------main------------------------------*/
+
+    #mn {
+        width: 150vw;
+        height: 127vh;
+        background-color: rgb(239, 245, 255);
+        display: grid;
+        grid-template-columns: repeat 1fr;
+        grid-template-rows: repeat 4;
+        grid-template-areas:
+            "bx-4"
+            "bx-2"
+            "bx-5"
+            "bx-8"
+        ;
+    }
+
+
+    .box {
+        width: 150vw;
+        height: calc(122vh/4);
+        /* border: 1px solid #000; */
+    }
+
+    #bx-4 {
+        grid-area: bx-4;
+        display: flex;
+        justify-content: center;
+    }
+
+    #bx-2 {
+        grid-area: bx-2;
+        
+    }
+
+    #bx2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bx-2a {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    #bx-2b {
+        display: flex;
+        justify-content: center;
+    }
+
+    #info-hd {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #about-icon {
+        width: 65px;
+        height: 65px;
+        border-radius: 25px;
+    }
+
+    #bx-5 {
+        grid-area: bx-5;
+    }
+
+    #bx5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bx-5a {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    #bx-5b {
+        display: flex;
+        justify-content: center;
+    }
+
+    #ex-hd {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #ex-icon {
+        width: 75px;
+        height: 75px;
+        border-radius: 25px;
+    }
+
+    #bx-8 {
+        grid-area: bx-8;
+    }
+
+    #bx8 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bx-8a {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    #bx-8b {
+        display: flex;
+        justify-content: center;
+    }
+
+    #skills-hd {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #skills-icon {
+        width: 75px;
+        height: 75px;
+        border-radius: 25px;
+
+    }
+
+    #pic {
+        width: 348.33px;
+        height: 260.45px;
+        border-radius: 500px;
+        
+    }
+
+    /*-------------------------foter--------------*/
+
+    #ft {
+        width: 150vw;
+        height: 14vh;
+        background-color: rgb(106, 46, 247);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    #ft-1 {
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #copy-right{
+        font-size: 34px;
+        font-weight: 80;
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.5px;
+        word-wrap: break-word;
+    }
+
+    #ft-2 {
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+
+    }
+
+    #facebook-icon {
+        height: 7vh;
+        
+    }
+
+    #instagram-icon {
+        height: 7vh;
+        
+    }
+    #email-icon {
+        height: 7vh;
+      
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*-----------------------medium screen--------------------------------*/
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(106, 46, 247);
+    }
+}
+
+
+
+
+
+/*-----------------------large screen--------------------------------*/
+@media only screen and (min-width: 1000px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        background-color: burlywood;
+    }
+    /*-----------------------------------header---------------------------*/
+    #hd {
+        width: 100vw;
+        height: 7vh;
+        background-color: rgb(106, 46, 247);
+        display: flex;
+        gap: 0.5vw;
+    }
+
+
+
+    #sec-1 {
+        width: 20vw;
+        height: 7vh;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    #logo {
+        width: 100px;
+        height: 70px;
+        border-radius: 25px;
+        /* background-color: black; */
+    }
+
+
+    #nv {
+        width: 55vw;
+        height: 7vh;
+        /* border: 1px solid #000; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        color: antiquewhite;
+    }
+
+
+
+    #nav {
+        width: 25vw;
+        height: 7vh;
+        /* border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-list  {
+        list-style: none;
+        display: flex;
+        gap: 2vw;
+        font-size: 24px;
+        font-weight:bold;
+    }
+
+    .list a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    
+   
+  
+
+
+/*------------------------------main-------------------------------------*/
+
+    #mn {
+        width: 100vw;
+        height: 86vh;
+        background-color: rgb(239, 245, 255);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "bx-1 bx-2 bx-2"
+            "bx-4 bx-5 bx-5"
+            "bx-7 bx-8 bx-8"
+        ;
+    }
+
+    .box {
+        /* width: calc(100vw/3); */
+        height: calc(80vh/3);
+        /* border: 1px solid #000; */
+    }
+
+    #bx-2 {
+        grid-area: bx-2;
+        
+    }
+
+    #bx2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bx-2a {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    #bx-2b {
+        display: flex;
+        justify-content: center;
+    }
+
+    #info-hd {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #about-icon {
+        width: 65px;
+        height: 65px;
+        border-radius: 25px;
+    }
+
+
+    /* #bx-1 {
+        grid-area: bx-1;
+        font-size: 40px;
+        font-weight: 800;
+        display: flex;
+        justify-content:center;
+        align-items:last baseline;
+        font-family: "Montserrat";
+        color: rgb(106, 46, 247);
+        line-height: 1.8;
+        letter-spacing: 0.5px;
+        word-wrap: break-word;
+    } */
+
+    #bx-4 {
+        grid-area: bx-4;
+        display: flex;
+        justify-content: center;
+    }
+
+    #bx-5 {
+        grid-area: bx-5;
+    }
+
+    #bx5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bx-5a {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    #bx-5b {
+        display: flex;
+        justify-content: center;
+    }
+
+    #ex-hd {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #ex-icon {
+        width: 75px;
+        height: 75px;
+        border-radius: 25px;
+    }
+    
+    #bx-7 {
+        grid-area: bx-7;
+        display: flex;
+        justify-content: center;
+    }
+
+    #bx-8 {
+        grid-area: bx-8;
+    }
+
+    #bx8 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bx-8a {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    #bx-8b {
+        display: flex;
+        justify-content: center;
+    }
+
+    #skills-hd {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #skills-icon {
+        width: 75px;
+        height: 75px;
+        border-radius: 25px;
+
+    }
+
+
+    
+
+    #pic {
+        width: 348.33px;
+        height: 297.45px;
+        border-radius: 500px;
+    }
+
+    #dif {
+        font-size: 40px;
+        font-weight: 80;
+        color: rgb(106, 46, 247);
+        line-height: 1.8;
+        letter-spacing: 0.5px;
+        word-wrap: break-word;
+    }
+
+
+    /*---------------------------footer--------------------------------------*/
+
+    #ft {
+        width: 100vw;
+        height: 7vh;
+        background-color: rgb(106, 46, 247);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    #ft-1 {
+        height: 3.5vh;
+        display: flex;
+        justify-content: center;
+        align-items:end ;
+      
+    }
+
+    #copy-right{
+        font-size: 34px;
+        font-weight: 80;
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.5px;
+        word-wrap: break-word;
+    }
+
+    #ft-2 {
+        height: 3.5vh;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        gap: 5vw;
+
+
+    }
+
+    #facebook-icon {
+        height: 3.5vh;
+        
+    }
+
+    #instagram-icon {
+        height: 3.5vh;
+        
+    }
+    #email-icon {
+        height: 3.5vh;
+      
+    }
+
+
+
+
+
+
+}
