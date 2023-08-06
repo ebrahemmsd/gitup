@@ -77,7 +77,7 @@
         background-color: rgb(239, 245, 255);
         display: grid;
         grid-template-columns: repeat 1fr;
-        grid-template-rows: repeat 4;
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
             "bx-4"
             "bx-2"
@@ -89,7 +89,7 @@
 
     .box {
         width: 150vw;
-        height: calc(122vh/4);
+        height: calc(127vh/4);
         /* border: 1px solid #000; */
     }
 
