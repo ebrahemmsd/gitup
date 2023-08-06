@@ -73,11 +73,11 @@
 
     #mn {
         width: 150vw;
-        height: 127vh;
+        /* height: 127vh; */
         background-color: rgb(239, 245, 255);
         display: grid;
         grid-template-columns: repeat 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat 4fr;
         grid-template-areas:
             "bx-4"
             "bx-2"
@@ -95,13 +95,14 @@
 
     #bx-4 {
         grid-area: bx-4;
+        height: 285px;
         display: flex;
         justify-content: center;
     }
 
     #bx-2 {
         grid-area: bx-2;
-        
+        height: 305px;
     }
 
     #bx2 {
@@ -133,6 +134,7 @@
 
     #bx-5 {
         grid-area: bx-5;
+        height: 245px;
     }
 
     #bx5 {
@@ -164,6 +166,7 @@
 
     #bx-8 {
         grid-area: bx-8;
+        height: 305px;
     }
 
     #bx8 {
